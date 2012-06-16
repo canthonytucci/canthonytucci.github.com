@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ page.title }}</title>
+<title>C. Anthony Tucci - About</title>
       <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css"/>
       <link rel="stylesheet" type="text/css" href="/stylesheets/css.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -26,13 +26,13 @@
         <div class="span2">
         </div>
         <div class="span9">
-            {{ content }}
+            This is the about content.
             <h2> Posts </h2>
-            {% for post in site.posts limit:5 %}
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            {{ post.content }}
-            <em>Posted on {{ post.date | date_to_long_string }}.</em>
-            {% endfor %}
+            
+            <h2><a href="/2012/05/13/hello-github.html">Hello, github!</a></h2>
+            <p>Trying out github pages, so far this is pretty fantastic.</p>
+            <em>Posted on 13 May 2012.</em>
+            
         </div>
     </div>
 </div>

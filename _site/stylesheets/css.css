@@ -1,0 +1,12 @@
+body {
+
+}
+.site-heading {
+	padding-top: 5%;
+		position: fixed;
+		background-color: white;
+}
+.site-content {
+	padding-top:15%;
+	position: relative;
+}
