@@ -9,14 +9,14 @@
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="brand" href="#">C. Anthony Tucci</a>  
-            </div>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="#">C. Anthony Tucci</a>  
         </div>
     </div>
+</div>
+<div class="container-fluid">
     <div class="row-fluid site-content">
 
        <div class="span2">
